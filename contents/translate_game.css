@@ -1,0 +1,38 @@
+html {
+    background-color: #eee;
+}
+
+/* Your CSS here */
+
+.title {
+	font-size: 40px;
+	font-family: "Trebuchet MS";
+	padding-bottom: 40px;
+	padding-left: 10px;
+}
+
+.table {
+	padding-left: 10px;
+	font-size: 20px;
+	font-family: "Trebuchet MS";
+}
+
+.calabaza {
+	color: blue;
+}
+
+.pumpkin {
+	color: blue;
+}
+
+.postmodernidad {
+	color: red;
+}
+
+.phone {
+	color: red;
+}
+
+.postmodernism {
+	color: red;
+}

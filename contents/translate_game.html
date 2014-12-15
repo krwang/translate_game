@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+   COLLABORATORS: None
+   
+  -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ready, Set, Translate !</title>
+    <link type="text/css" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link type="text/css" href="translate_game.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script type="text/javascript" src="dicts.json"></script>
+    <script type="text/javascript" src="translate_game.js"></script>
+
+  </head>
+  <body>
+      <div class = "info-container">
+      <div class = "title"> Translate from </div>
+      <table class = "table" style = "width: 600px">
+        <thead>
+          <tr> 
+            <td> Spanish </td>
+            <td> English </td>
+            <td> Answer </td>
+          </tr>
+          <tr class = "guessing-row">
+            <td class = "word_to_translate"> espejo </td>
+            <td> 
+              <input class = "ui-autocomplete-input" id = "input" type = "text" name = "guess" autocomplete = "on">
+            </td>
+            <td>
+              <input class = "submit" type = "submit" name = "submit" value = " See Answer">
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class = "blank"> <td> <br/> </td> </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td class = "calabaza"> calabaza </td>
+            <td class = "pumpkin"> pumpkin </td>
+            <td> <span class = "ui-icon ui-icon-check"> </span> </td>
+          </tr>
+          <tr>
+            <td class = "postmodernidad"> postmodernidad </td>
+            <td class = "phone"> <strike> phone </strike> </td>
+            <td class = "postmodernism"> postmodernism </td>
+          </tr>
+        </tfoot>
+      </table> 
+
+  </body>
+</html>
